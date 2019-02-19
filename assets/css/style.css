@@ -1,0 +1,37 @@
+
+#bear-head {
+    margin: 0 2% 0 2%;
+    width: 200px;
+    height: 200px;
+}
+
+#main-section {
+    border-bottom-color: red;
+    border-bottom-width: 10px;
+}
+
+#main-row{
+    height: 960px;
+    margin-top: 0;
+    background-image: url(images/light-veneer.png);
+}
+
+#footer-breaker {
+    background-color: black;
+    color: greenyellow;
+    height: 20px;
+    margin-top: 0;
+    margin: -14px;
+}
+
+footer {
+    /* background-color:#666666; */
+    background-color: blue;
+    height: 15px; 
+    text-align: center; 
+    margin-top: 5px;
+    font-size: 12pt;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: -14px;
+}
