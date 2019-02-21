@@ -5,6 +5,10 @@
     height: 200px;
 }
 
+.nav-item {
+    font-size: 18pt;
+}
+
 #main-section {
     border-bottom-color: red;
     border-bottom-width: 10px;
@@ -16,17 +20,24 @@
     background-image: url(images/light-veneer.png);
 }
 
+#content-holder {
+    margin-block-start: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    background-color: #ffffff;
+    padding: 2%;
+}
+
 #footer-breaker {
-    background-color: black;
-    color: greenyellow;
+    background-color: #4aaaa5;
     height: 20px;
     margin-top: 0;
     margin: -14px;
 }
 
 footer {
-    /* background-color:#666666; */
-    background-color: blue;
+    background-color:#666666;
     height: 15px; 
     text-align: center; 
     margin-top: 5px;

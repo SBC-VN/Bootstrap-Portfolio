@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Basic Portfolio</title>
+    <title>Denta Bear Contact Info</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets\css\style.css">
 </head>
@@ -20,7 +20,7 @@
                                     </a>
                                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                                       <ul class="navbar-nav">
-                                        <li class="nav-item active">
+                                        <li class="nav-item">
                                           <a class="nav-link" href="#">About</a>
                                         </li>
                                         <li class="nav-item">
@@ -32,7 +32,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">|</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item active">
                                           <a class="nav-link" href="#">Contact</a>
                                         </li>
                                       </ul>
@@ -44,16 +44,20 @@
             <div class="row" id="main-row">
                 <div class="col-md-12">
                     <div id="content-holder">
-                        <img class="float-left" id="bear-head" src="assets\css\images\bearhead.jpg" alt = "picture, head and shoulders">
-                        <span class="align-middle">
-                            My life's work is to teach people, particularly children, that good dental hygine is of paramount importance. Besides the fact that a mouth full of funky green snaggle teeth doesn't look atractive: Recent studies have found that gingivitius is at least linked to, and may cause, Alzhimers desease.   So, neglect your teeth at the risk of
-                            forgetting who you are..
-                            <br>
-                            This line of work involves a lot of travel and visits to schools which are fun, although the children can get clingy
-                            at times.
-                            <br>
-                            The worst part of my job is that I also have to visit the dentist quite often.  Sometimes 4-5 times in a single day!
-                        </span>
+                            <form>
+                                    <div class="form-group">
+                                        <label for="nameInput">Name</label>
+                                        <input type="text" class="form-control" id="nameInput" placeholder="First Last">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="emailInput">Email address</label>
+                                      <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="messageInput">Message</label>
+                                        <textarea class="form-control" id="messageInput" rows="10"></textarea>
+                                    </div>
+                            </form>
                     </div>
                 </div>
             </div>
