@@ -29,6 +29,13 @@
     padding: 2%;
 }
 
+.port-pic {
+    width: 300px;
+    height: 300px;
+    border: 10px;
+    border-color: aqua;
+}
+
 #footer-breaker {
     background-color: #4aaaa5;
     height: 20px;
