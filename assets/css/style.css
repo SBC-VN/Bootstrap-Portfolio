@@ -15,7 +15,7 @@
 }
 
 #main-row{
-    height: 960px;
+    min-height: 960px;
     margin-top: 0;
     background-image: url(images/light-veneer.png);
 }
